@@ -1,7 +1,7 @@
 # PyNews
 PyNews is a free, REST API for any language. It uses Google's Gemini to summarize news articles from CNN. It is hosted with Flask and PythonAnywhere. It updates every day at 5:00 PM Eastern Daylight Time. No API Key or is required, and there is no rate limit, so please do not try to overload the server.
-## Bash or ZSH
-You can use PyNews in bash or zsh by entering this:
+## Bash or Zsh
+You can use PyNews in Bash or Zsh by entering this:
 ```
 curl https://pynews.pythonanywhere.com/
 ```
