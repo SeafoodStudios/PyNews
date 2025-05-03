@@ -1,5 +1,5 @@
 # PyNews
-PyNews is a free, REST API for any language. It uses Google's Gemini to summarize news articles from CNN. There is not rate limiting, so please don't attempt to overload the server in any way.
+PyNews is a free, REST API for any language. It uses Google's Gemini to summarize news articles from CNN. It is hosted with Flask and PythonAnywhere. There is not rate limiting, so please don't attempt to overload the server in any way.
 ## Shell Languages
 You can use PyNews in shell languages by entering this:
 ```
