@@ -13,4 +13,4 @@ print(response.text)
 
 @app.route("/")
 def display():
-    return Response("PyNews is a free news service that scrapes from CNN Lite, and summarizes the news using Google Gemini. Here is the documentation: https://github.com/SeafoodStudios/PyNews\n\n" + str(response.text), mimetype='text/plain')
+    return Response("PyNews is a free news service by SeafoodStudios that scrapes from CNN Lite, and summarizes the news using Google Gemini. Here is the documentation: https://github.com/SeafoodStudios/PyNews\n\n" + str(response.text), mimetype='text/plain')
