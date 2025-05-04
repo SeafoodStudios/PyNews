@@ -25,4 +25,4 @@ AI can make mistakes, and this is summarized using Gemini, so please double chec
 
 ## News Source Attribution
 - We scrape from **[CNN Lite](https://lite.cnn.com)** once a day to ensure great and recent news.
-- We summarize the results from CNN using [Google Gemini AI](https://gemini.google.com/) to ensure that we are not copying CNN's headlines.
+- We summarize the results from CNN using **[Google Gemini AI](https://gemini.google.com/)** to ensure that we are not copying CNN's headlines.
