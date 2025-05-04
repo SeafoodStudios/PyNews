@@ -1,9 +1,11 @@
+#Setup Flask and Imports
 from google import genai
 from flask import Flask, Response
 import requests
 
 app = Flask(__name__)
 
+#Fetch & Generate News
 data = requests.get("https://www.w3.org/services/html2txt?url=https://lite.cnn.com/")
 client = genai.Client(api_key="YOUR_API_KEY")
 response = client.models.generate_content(
@@ -11,6 +13,7 @@ response = client.models.generate_content(
 )
 print(response.text)
 
+#Display News with Flask
 @app.route("/")
 def display():
     return Response("PyNews is a free news service by SeafoodStudios that scrapes from CNN Lite, and summarizes the news using Google Gemini. Here is the documentation: https://github.com/SeafoodStudios/PyNews\n\n" + str(response.text), mimetype='text/plain')
