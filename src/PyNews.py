@@ -13,4 +13,4 @@ print(response.text)
 
 @app.route("/")
 def display():
-    return Response("PyNews Documentation and Attribution Here: https://github.com/SeafoodStudios/PyNews\n\n" + str(response.text), mimetype='text/plain')
+    return Response("PyNews scrapes from CNN Lite, and it summarizes the news using Google Gemini. Here is the documentation: https://github.com/SeafoodStudios/PyNews\n\n" + str(response.text), mimetype='text/plain')
