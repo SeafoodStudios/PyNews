@@ -19,3 +19,10 @@ fetch('https://corsproxy.io/?url=https://pynews.pythonanywhere.com/').then(respo
 ```
 ## Other Languages
 You can use PyNews in practically every language that supports fetching from the Internet, because it is a REST API. It's just I don't comprehend those languages. Sorry.
+
+## Important Notes
+AI can make mistakes, and this is summarized using Gemini, so please double check the results, as we are not liable for any damages caused.
+
+## News Source Attribution
+- We scrape from **[CNN Lite](https://lite.cnn.com)** once a day to ensure great and recent news.
+- We summarize the results from CNN using [Google Gemini AI](https://gemini.google.com/) to ensure that we are not copying CNN's headlines.
