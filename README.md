@@ -6,7 +6,7 @@ PyNews is a free, REST API for any language. It uses Google's Gemini to summariz
 - No rate limit for the API.
 - Plain text output.
 - In a nice narrative format.
-- Accessable using GET requests.
+- Accessible using GET requests.
 
 ## Uses
 - PyNews can be used for giving an AI model context of what is happening now (but PyNews uses Gemini, which may make mistakes, so be careful).
