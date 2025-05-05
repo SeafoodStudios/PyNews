@@ -1,5 +1,18 @@
 # PyNews
-PyNews is a free, REST API for any language. It uses Google's Gemini to summarize news articles from CNN. It is hosted with Flask and PythonAnywhere. It updates every day at 5:00 PM Eastern Daylight Time. No API Key or is required, and there is no rate limit, so please do not try to overload the server.
+PyNews is a free, REST API for any language. It uses Google's Gemini to summarize news articles from CNN. It is hosted with Flask and PythonAnywhere. It updates every day at 5:00 PM Eastern Daylight Time.
+
+## Features
+- No API Key is required.
+- No rate limit for the API.
+- Plain text output.
+- In a nice narrative format.
+- Accessable using GET requests.
+
+## Uses
+- PyNews can be used for giving an AI model context of what is happening now (but PyNews uses Gemini, which may make mistakes, so be careful).
+- PyNews can be used directly from the site, to save time from ads and cookie policies.
+- PyNews can be used in a productivity site, or on a news site as a brief overview.
+
 ## Bash or Zsh
 You can use PyNews in Bash or Zsh by entering this:
 ```
